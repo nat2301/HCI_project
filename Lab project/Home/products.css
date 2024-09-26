@@ -1,0 +1,93 @@
+.items {
+
+    height: 100vh;
+    width: 100%;
+
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.items .text {
+
+    margin-left: 10vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+
+}
+
+.items > .text > img {
+
+    height: 2vw;
+    width: 2vw;
+
+    object-fit: cover;
+    overflow: hidden;
+
+}
+
+.items > .content {
+
+    background: white;
+    box-shadow: 0 0 10vh rgba(0, 0, 0, 0.2);
+
+    height: 80vh;
+    width: 80%;
+
+    margin: 0;
+    margin-left: 10%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+
+    overflow-x: hidden;
+
+}
+
+.items > div > div {
+
+    height: 80%;
+    width: 30%;
+
+
+    background: white;
+    box-shadow: 0 0 10vh rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.items > div > div > img {
+    height: 20vw;
+    width: 20vw;
+
+    object-fit: cover;
+    overflow: hidden;
+
+    margin: 0;
+}
+
+.items h2 {
+    position: sticky;
+    margin: 0;
+    width: 20vw;
+}
+
+.items #name {
+    text-align: left;
+}
+
+.items #price {
+    text-align: right;
+}

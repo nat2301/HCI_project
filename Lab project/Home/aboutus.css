@@ -1,0 +1,31 @@
+.about-us {
+
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+
+    text-align: justify;
+
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+
+}
+
+.about-us h1 {
+	font-size: 5vh;
+}
+
+.about-us .text {
+	width: 50vw;
+}
+
+@media screen and (max-width: 800px) {
+	.about-us {
+		flex-direction: column;
+	}
+
+	.about-us .text {
+		width: 80vw;
+	}
+}

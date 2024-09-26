@@ -1,0 +1,29 @@
+.logo {
+
+    height: 40vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+
+}
+
+.logo img {
+
+    width: 15vw;
+    height: 15vw;
+
+    box-shadow: 0 0 10vh rgba(0, 0, 0, 0.2);
+
+    transition: all .5s ease-out;
+
+}
+
+.logo img:hover {
+
+    scale: 1.05;
+
+}

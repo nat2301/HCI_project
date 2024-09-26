@@ -1,0 +1,73 @@
+.promotion {
+
+    width: 100%;
+
+    margin: 0;
+
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.promotion > div {
+
+    position: relative;
+    background: black;
+
+    height: 100vh;
+    width: 33.33vw;
+    margin: 0;
+
+}
+
+.promotion img {
+
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+    overflow: hidden;
+
+    filter: brightness(0.5);
+
+    transition: all .5s ease-in-out;
+
+}
+
+.promotion h1, .promotion h2 {
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+
+    color: white;
+    text-align: center;
+
+    width: 80%;
+
+    transition: all .5s ease-in-out;
+
+}
+
+.promotion h1 {
+    font-size: 2vw;
+}
+
+.promotion h2 {
+    opacity: 0;
+    font-size: 1.5vw;
+}
+
+.promotion > div:hover img {
+    filter: brightness(0.5) blur(1vh);
+}
+
+.promotion > div:hover h1 {
+    top: 45%;
+}
+
+.promotion > div:hover h2 {
+    top: 55%;
+    opacity: 1;
+}

@@ -1,0 +1,13 @@
+.items {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.items h1 {
+
+    margin-left: 10vw;
+
+}

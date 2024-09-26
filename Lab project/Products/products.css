@@ -1,0 +1,152 @@
+.products {
+
+    /* width: 100vw;
+    height: 100vh; */
+
+    margin: 0;
+    margin-top: 20vh;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50vh;
+
+}
+
+.products > div {
+
+    margin: 0;
+    position: relative;
+    
+}
+
+.products > div > img {
+
+    width: 30vw;
+    height: 30vw;
+    margin-left: 50%;
+    background: white;
+    transform: translate(-50%, 0);
+
+}
+
+.products > div > div {
+
+    /* height: 200vh; */
+    width: 90vw;
+
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+
+    margin: 0;
+    margin-left: 5%;
+
+    justify-content: center;
+    align-items: center;
+
+    background: white;
+    /* box-shadow: 0 0 10vh rgb(255, 255, 255); */
+    
+}
+
+.products > div > div > .default {
+
+    height: 200%;
+    width: 47.5%;
+
+    position: relative;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+
+    margin: 0;
+    /* margin-left: 5%; */
+
+}
+
+.products > div > div > div > div {
+
+    background: white;
+    box-shadow: 0 0 10vh rgba(0, 0, 0, 0.2);
+
+    height: 40vh;
+    width: 100%;
+
+    /* padding: 5vh 0 5vh 0; */
+    margin: 0;
+
+    position: relative;
+
+}
+
+.products > div > div > div > div > img {
+
+    height: 80%;
+
+    object-fit: cover;
+    overflow: hidden;
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+
+    transition: all .5s ease-in-out;
+
+}
+
+.products > div > div > div > div > div {
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+
+}
+
+.products .handle {
+
+    opacity: 0;
+    transition: all .5s ease-in-out;
+
+}
+
+.products > div > div > div > div:hover .watch {
+
+    left: 30%;
+
+}
+
+.products > div > div > div > div:hover .handle {
+
+    left: 70%;
+    opacity: 1;
+
+}
+
+.products h1 {
+
+    width: 100%;
+    font-size: 1.5vw;
+    margin: 0;
+
+}
+
+.products h2 {
+
+    font-size: 1vw;
+    margin: 0;
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .products > div > div {
+
+        flex-direction: column;
+
+    }
+
+}

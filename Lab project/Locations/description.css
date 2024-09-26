@@ -1,0 +1,54 @@
+.description {
+
+    margin-left: 10%;
+    margin-top: 20vh;
+
+}
+
+.description > div > div > div {
+
+    display: flex;
+    gap: 2%;
+
+}
+
+.type {
+
+    padding-right: 2%;
+    border-right: 1px black solid;
+
+}
+
+.type h2 {
+
+    text-align: right;
+    margin: 0;
+
+}
+
+.display > div {
+
+    display: flex;
+    align-items: flex-end;
+    gap: 1%;
+    
+}
+
+.display {
+
+    width: 40%;
+
+}
+
+.display h2 {
+
+    margin: 0;
+    
+}
+
+.display h3 {
+
+    font-size: 2vh;
+    margin: 0;
+    
+}

@@ -1,0 +1,29 @@
+body {
+
+    font-family: 'Roboto Slab', sans-serif;
+    user-select: none;
+    margin: 0; 
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+    
+.main {
+
+    height: auto;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+
+    background: white;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20vh;
+
+}

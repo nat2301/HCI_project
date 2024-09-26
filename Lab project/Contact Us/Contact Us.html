@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WatcHGoods - Contact Us</title>
+
+    
+    <link rel="stylesheet" href="background.css">
+    <link rel="stylesheet" href="enquiery.css">
+    <link rel="stylesheet" href="/public/directory.css">
+    <link rel="stylesheet" href="/public/title.css">
+    <link rel="stylesheet" href="/public/style.css">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="directory">
+        <div class="button">
+            <a href="/Home/Home.html">
+                <img src="/images/logo/home.png" alt="Home">
+                <h1>Home</h1>
+            </a>        
+            <a href="/Products/Products.html">
+                <img src="/images/logo/products.png" alt="Products">
+                <h1>Products</h1>
+            </a>        
+            <a href="/Locations/Locations.html">
+                <img src="/images/logo/location.jpg" alt="Locations">
+                <h1>Locations</h1>
+            </a>        
+            <a href="/About Us/About Us.html">
+                <img src="/images/logo/information.png" alt="About Us">
+                <h1>About Us</h1>
+            </a>        
+            <a href="/Contact Us/Contact Us.html">
+                <img src="/images/logo/contact.jpg" alt="Contacts Us">
+                <h1>Contacts Us</h1>
+            </a>        
+        </div>
+        <div class="hover"></div>
+    </div>
+
+    <div class="main">
+        <div class="title">
+            <h1>WatcHGoods</h1>
+        </div>
+
+        <div class="enquiery">
+            <h1>Contact Us</h1>
+            <div class="template">
+                <div class="stripes" id="stripes1"></div>
+                <div class="stripes" id="stripes2"></div>
+                <div class="stripes" id="stripes3"></div>
+
+
+                <form id="Form">
+                    <div>
+                        <div>
+                            <label for="fname">Full Name</label>
+                            <div>
+                                <input type="text" name="fullname" id="fname">
+                                <h1 class="error fname">Error Text</h1>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <div>
+                                <input type="email" name="email" id="email">
+                                <h1 class="error email">Error Text</h1>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <label for="country">Country</label>
+                                <div>
+                                    <input type="text" name="country" id="country">
+                                    <h1 class="error country">Error Text</h1>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <label for="city">City</label>
+                                <div>
+                                    <input type="text" name="city" id="city">
+                                    <h1 class="error city">Error Text</h1>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="gap: .5vw;">
+                            <input type="checkbox" name="copy">
+                            <label for="copy" id="copy">Give me the copy of the email</label>
+                        </div>
+                    </div>
+                    <div style="gap: 0;">
+                        <label for="message" class="message">Message</label>
+                        <input type="text" name="" id="message" placeholder="Write your message here">
+                        <h1 class="error message">Error Text</h1>
+                    </div>
+
+
+                                    
+                <button class="submit" type="submit">
+                    <h1>Submit</h1>
+                </button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+<script src="validation.js"></script>
+</html>

@@ -1,0 +1,92 @@
+.attributes {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.attributes > div {
+    height: 50vw;
+    width: 100vw;
+    display: flex;
+    margin: 0;
+    margin-bottom: 30vh;
+}
+
+.attributes h1,
+.attributes h2 {
+    color: black;
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.attributes h1 {
+    font-size: 30px;
+}
+
+.attributes h2 {
+    font-size: 20px;
+}
+
+.attributes > div > .text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.attributes > div > .image {
+
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+}
+
+.attributes > div > div > img {
+    height: 50vw;
+    width: 50vw;
+    object-fit: cover;
+
+    transition: all .3s ease-in-out;
+
+}
+
+.attributes .logo {
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+
+    height: 15vw;
+    width: 15vw;
+    object-fit: cover;
+
+    opacity: 0;
+
+    transition: all .3s ease-in-out;
+
+}
+
+
+
+
+
+
+
+
+
+
+.attributes > div > .image:hover .watch {
+    filter: brightness(.5) blur(.5vh);
+}
+
+.attributes > div > .image:hover .logo {
+    opacity: 1;
+}

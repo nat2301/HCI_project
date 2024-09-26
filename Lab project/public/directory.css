@@ -1,0 +1,68 @@
+.directory {
+
+    position: fixed;
+    padding-left: 1%;
+    padding-right: 1%;
+    
+    width: 12.5vw;
+    border-bottom: 1vh red solid;
+
+    left: 90%;
+    top: 0.7%;
+    transform: translate(-50%, -100%);
+
+    background-color: white;
+
+    z-index: 1;
+
+    transition: all .5s ease-in-out;
+
+    text-decoration: none;
+}
+
+/* .directory .hover {
+
+    width: 110%;
+    height: 1vw;
+
+    background-color: red;
+
+    margin-bottom: 15%; 
+
+
+    transition: all .5s ease-in-out; 
+
+}  */
+
+
+.directory:hover {
+    transform: translate(-50%, 0%);
+    top: 0;
+}
+
+.directory:hover .hover{
+    height: 0.3vw;
+
+}
+
+.directory img {
+
+    height: 3vw;
+    width: 3vw;
+
+}
+
+.directory a {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 5%;
+
+    text-decoration: none;
+    color: inherit;
+}
+
+.directory h1 {
+    font-size: 1.5vw;
+}

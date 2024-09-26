@@ -1,0 +1,51 @@
+.directory {
+
+    position: fixed;
+
+    left: 90%;
+    top: 4%;
+    transform: translate(-50%, -100%);
+
+    z-index: 1;
+
+    transition: all .5s ease-in-out;
+
+    text-decoration: none;
+}
+
+.directory .hover {
+
+    width: 110%;
+    height: .5vw;
+
+    background-color: black;
+
+    margin-bottom: 15%;
+
+
+    transition: all .5s ease-in-out;
+
+}
+
+
+.directory:hover {
+    top: 48%;
+}
+
+.directory img {
+
+    height: 3vw;
+    width: 3vw;
+
+}
+
+.directory a {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 5%;
+
+    text-decoration: none;
+    color: inherit;
+}
